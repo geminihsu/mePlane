@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 	android:id="@+id/wrap"
+xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:padding="10px"
+			  >
+	
+  <TextView android:id="@+id/timeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+          android:textStyle="bold"
+        android:textColor="@drawable/black"
+        />
+	<TextView  	android:id="@+id/text_kb_streamed"
+				android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:textStyle="bold"
+			     android:textColor="@drawable/black"
+			    />
+	 <TextView  	android:id="@+id/song_id3"
+				android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:textStyle="bold"
+			     android:textColor="@drawable/black"
+	/>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+>
+<ImageButton android:id="@+id/listening"
+    	android:layout_width="43sp"
+    	android:layout_height="40sp"
+    	android:src="@drawable/play" />
+<ImageButton android:id="@+id/button_back"
+    	android:layout_width="43sp"
+    	android:layout_height="40sp"
+    	android:src="@drawable/media_skip_backward" />
+<ImageButton android:id="@+id/button_play"
+    	android:layout_width="43sp"
+    	android:layout_height="40sp"
+    	android:src="@drawable/button_pause" />
+ <ImageButton android:id="@+id/button_stop"
+    	android:layout_width="43sp"
+    	android:layout_height="40sp"
+    	android:src="@drawable/media_playback_stop" />
+ <ImageButton android:id="@+id/button_next"
+    	android:layout_width="43sp"
+    	android:layout_height="40sp"
+    	android:src="@drawable/media_skip_forward" />
+<ImageButton android:id="@+id/love"
+    	android:layout_width="43sp"
+    	android:layout_height="40sp"
+    	android:src="@drawable/love" />
+<ImageButton android:id="@+id/button_delete"
+    	android:layout_width="43sp"
+    	android:layout_height="40sp"
+    	android:src="@drawable/pause" />	
+ 
+
+</LinearLayout>		
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+>
+	<ProgressBar android:id="@+id/progress_bar"  
+		    	android:layout_width="265px"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	style="?android:attr/progressBarStyleHorizontal"
+		    	
+		    	/>
+<TextView  	android:id="@+id/time"
+				android:layout_width="42sp" 
+			  android:layout_height="wrap_content"
+			    android:textStyle="bold"
+			    android:layout_alignParentRight="true"
+			     android:textColor="@drawable/black"
+/>
+</LinearLayout>	
+  <TextView
+            android:id="@+id/problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  請在聆聽的過程中點選表情圖示，這裡依據所按的次數，表示給定歌曲1~5的情緒評分"
+             android:textStyle="bold"
+          
+       />
+  
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+   <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+       />
+ 	<ImageButton android:id="@+id/group00"
+    	android:layout_width="wrap_content"
+    	android:layout_height="40sp"
+    	android:src="@drawable/icon_biggrin" />
+    	 <Spinner android:id="@+id/emotion_00"
+      android:layout_width="fill_parent"
+      android:layout_height="40sp"
+      android:textColor="@drawable/black"
+       />
+ </LinearLayout>
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+   <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+       />
+   	<ImageButton android:id="@+id/group01"
+    	android:layout_width="wrap_content"
+    	android:layout_height="40sp"
+    	android:src="@drawable/icon_twisted" />
+    		 <Spinner android:id="@+id/emotion_01"
+      android:layout_width="fill_parent"
+      android:layout_height="40sp" />
+    	 </LinearLayout>
+    	  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    >
+   <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+       />
+   <ImageButton android:id="@+id/group10"
+    	android:layout_width="wrap_content"
+    	android:layout_height="40sp"
+    	android:src="@drawable/icon_wink" />
+    		 <Spinner android:id="@+id/emotion_10"
+      android:layout_width="fill_parent"
+      android:layout_height="40sp" />
+    	 </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+   <Button android:id="@+id/reset"
+     android:layout_width="150sp" 
+    android:layout_height="40sp" 
+     android:textSize="20sp"
+    android:text="給予情緒評分"
+  />	
+   <Button android:id="@+id/cancel"
+     android:layout_width="150sp" 
+    android:layout_height="40sp" 
+     android:textSize="20sp"
+    android:text="取消"
+  />	
+   </LinearLayout>
+</LinearLayout>

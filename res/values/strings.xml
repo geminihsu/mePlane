@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, mp3!</string>
+    <string name="app_name">mp3</string>
+       <string name="dialog_text">請輸入你的帳號密碼</string>
+    <string name="alert">請填入正確的欄位資訊</string>
+    <string name="dialog_username">使用者帳號:</string>
+    <string name="dialog_password">使用者密碼:</string>
+    <string name="dialog_ok">確認</string>
+    <string name="dialog_cancel">取消</string>
+  <string name="str_longitude">Longitude</string> 
+  <string name="str_latitude">Latitude</string> 
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+   <TextView 
+        android:id="@+id/ip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"  
+          android:textSize="19sp"      
+        android:text="伺服器位址" />
+            
+    <EditText
+        android:id="@+id/ip_edit"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+          android:textSize="19sp"
+        android:text="140.136.149.204"
+        />
+   <TextView 
+        android:id="@+id/port"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"  
+          android:textSize="19sp"      
+        android:text="伺服器阜號"/>
+            
+    <EditText
+        android:id="@+id/port_edit"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+          android:textSize="19sp"
+         android:text="14741"
+         />
+      <TextView 
+        android:id="@+id/username"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"   
+          android:textSize="19sp"     
+        android:text="@string/dialog_username" />
+            
+    <EditText
+        android:id="@+id/username_edit"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+          android:textSize="19sp"
+          android:text="gemini"
+         />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+          android:textSize="19sp"
+        android:text="@string/dialog_password" />
+            
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:password="true"
+          android:text="612"
+            android:textSize="19sp"
+         />  
+        <Button android:id="@+id/dialog_button"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:text="登入伺服器"/>    
+</LinearLayout>
