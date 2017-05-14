@@ -10,4 +10,5 @@ available to represent song mapping in this 2-dimension plane. When users touch 
 ![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/circle.png)
 ![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/456.png)
 ![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/789.png)
+![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/score.png)
 
