@@ -5,8 +5,8 @@ song. In keeping with the Thayer’s arousal-valence emotion model, we have desi
 available to represent song mapping in this 2-dimension plane. When users touch the plane, it will show the changed playlists for users at the same time.
 
 # Screenshots
-![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/0.png)
 ![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/device.png)
+![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/0.png)
 ![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/circle.png)
 ![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/456.png)
 ![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/789.png)
