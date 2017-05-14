@@ -4,6 +4,15 @@ application program, which we called mePlane which supports users to use the HTC
 song. In keeping with the Thayer’s arousal-valence emotion model, we have designed a user interface on a 2-dimension plane. Finally, there will be a lot of points
 available to represent song mapping in this 2-dimension plane. When users touch the plane, it will show the changed playlists for users at the same time.
 
+# Use Case
+![alt text](https://github.com/geminihsu/mePlane/blob/master/uml/usecase.png)
+
+# Architectural Diagram![alt text](https://github.com/geminihsu/mePlane/blob/master/uml/architectural.png)
+
+# SequenceDiagram
+![alt text](https://github.com/geminihsu/mePlane/blob/master/uml/SequenceDiagram.png)
+
+
 # Screenshots
 ![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/device.png)
 ![alt text](https://github.com/geminihsu/mePlane/blob/master/Screenshots/0.png)
