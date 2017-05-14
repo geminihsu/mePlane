@@ -5,12 +5,12 @@ song. In keeping with the Thayer’s arousal-valence emotion model, we have desi
 available to represent song mapping in this 2-dimension plane. When users touch the plane, it will show the changed playlists for users at the same time.
 
 # Use Case
-![alt text](https://github.com/geminihsu/mePlane/blob/master/uml/usecase.png)
+![alt text](https://github.com/geminihsu/mePlane/blob/master/uml/usecase.jpg)
 
-# Architectural Diagram![alt text](https://github.com/geminihsu/mePlane/blob/master/uml/architectural.png)
+# Architectural Diagram![alt text](https://github.com/geminihsu/mePlane/blob/master/uml/architectural.jpg)
 
 # SequenceDiagram
-![alt text](https://github.com/geminihsu/mePlane/blob/master/uml/SequenceDiagram.png)
+![alt text](https://github.com/geminihsu/mePlane/blob/master/uml/SequenceDiagram.jpg)
 
 
 # Screenshots
